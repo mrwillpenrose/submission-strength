@@ -16,22 +16,26 @@
     <!---------------------------NAV--------------------------->
 
     <nav class="navbar navbar-expand-md navbar-dark bg-custom">
-        <a href="#" class="navbar-brand">
-            <img src="assets/images/ssLogo.png"></img>
+        <a href="index.html" class="navbar-brand">
+            <img src="assets/images/ssLogo.png" alt="Company Logo">
         </a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarMenu">
-            <ul class="navbar-nav mx-auto ">
+            <ul class="navbar-nav ml-auto ">
                 <li class="list-inline-item">
                     <a href="#" class="nav-link">About</a>
                 </li>
                 <li class="list-inline-item">
-                    <a href="#" class="nav-link">Past Projects</a>
+                    <a href="#" class="nav-link">Services</a>
                 </li>
                 <li class="list-inline-item">
-                    <a href="#" class="nav-link">Work With Me</a>
+                    <a href="#" class="nav-link">Blog</a>
+                </li>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="nav-link">Contact Me</a>
                 </li>
             </ul>
         </div>
@@ -42,7 +46,7 @@
 
     <footer class="container-fluid">
         <div class="row">
-            <div class="col-sm-12 col-xl-4">
+            <div class="footer-section col-sm-12 col-xl-4">
                 <h4 class="footer-heading">Legal</h4>
                 <p class="footer-paragraph">
                     Here you will find links to all of my legal documentation:
@@ -57,9 +61,35 @@
                 </ul>
             </div>
             <div class="col-sm-12 col-xl-4 footer-section">
-                <img class="footer-logo" src="assets/images/ssLogo.png">
+                <img class="footer-logo" src="assets/images/ssLogo.png" alt="Company Logo">
+                <ul class="social-links">
+                    <li class="list-inline-item">
+                        <a href="#" target="_blank">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" target="_blank">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" target="_blank">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
-            
+            <div class="col-sm-12 col-xl-4 footer-section">
+                <form method="post">
+                    <h4 class="footer-heading">Subscribe To My Newsletter!</h4><br>
+                    <input type="text" name="email" placeholder="Enter Your Email" required/>
+                    <button class="news-btn" type="submit" name="submit">SIGN UP</button>
+                </form>
+            </div>
         </div>
     </footer>
 

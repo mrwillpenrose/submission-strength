@@ -20,25 +20,29 @@ body {
     color: #fff !important;
 }
 
+
+.navbar .navbar-nav li a {
+    padding: 10px;
+    text-align: right;
+}
 /*-------------------------------FOOTER------------------------*/
 
 footer {
     padding: 0;
     margin: 0;
     background-color: #000;
+    position: fixed;
 }
 
 footer img {
-    width: 100px;
+    width: 150px;
     height: auto;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
-.footer-section {
-    text-align: center;
-}
 
 .footer-heading {
+    padding-top: 10px;
     color: #fff;
     text-align: center;
 }
@@ -46,4 +50,66 @@ footer img {
 .footer-paragraph {
     color: #fff;
     text-align: center;
+}
+
+.footer-section {
+    text-align: center;
+    padding: 0px 15px 0px 15px;
+    text-decoration: none;
+}
+
+
+.footer-section .social-links {
+    padding: 15px 0px 0px 0px;
+}
+
+.footer-section .social-links li a {
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #fff;
+    -webkit-transition: ease-in-out 0.25s;
+    -moz-transition: ease-in-out 0.25s;
+    -o-transition: ease-in-out 0.25s;
+}
+
+.footer-section .social-links li a:hover {
+    font-size: 25px;
+    color: #EF0606;
+}
+
+.footer-section .legal-links {
+    padding: 10px;
+    list-style-type: none;
+}
+
+
+.footer-section .legal-links  li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+
+.footer-section .legal-links  li a:hover {
+    text-decoration: underline;
+}
+
+
+form {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+form input {
+    height: 36px;
+    width: 50%;
+    padding: 0px;
+    text-align: center;
+}
+
+.news-btn {
+    background-color: #EF0606;
+    color: #fff;
+    border: 1px solid #EF0606;
+    padding: 5px 5px 5px 5px;
 }
