@@ -1,0 +1,49 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/*-------------------------------NAV------------------------*/
+
+.bg-custom {
+    background-color: #000;
+}
+
+
+
+.navbar-brand img {
+    width: 200px;
+    height: auto;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+/*-------------------------------FOOTER------------------------*/
+
+footer {
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+}
+
+footer img {
+    width: 100px;
+    height: auto;
+    padding-top: 20px;
+}
+
+.footer-section {
+    text-align: center;
+}
+
+.footer-heading {
+    color: #fff;
+    text-align: center;
+}
+
+.footer-paragraph {
+    color: #fff;
+    text-align: center;
+}
