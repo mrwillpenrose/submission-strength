@@ -7,6 +7,7 @@ body {
 
 .bg-custom {
     background-color: #000;
+    border-bottom: 1px solid #EF0606;
 }
 
 
